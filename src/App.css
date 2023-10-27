@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+.user-list {
+  background: black;
+  color: #fff;
+  height: 100%;
+  min-height: 500px;
+}
+.user-list .card{
+  color: #000;
+}
+.modalBackground h1 {
+  position: absolute;
+  top: 80px;
+}
+
