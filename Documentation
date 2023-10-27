@@ -1,0 +1,17 @@
+CRUD functionality, but using mockAPI
+performing Creta, Read, Update, and Delete Operations.
+
+Step 1 -  An action is performed on the front-end (let’s say a button click)
+Step 2 – That action is dispatched (by using useDispatch hook) to the middleware “createAsyncThunk()” written inside slice file
+Step 3 – Inside createAsyncThunk() an API is made, using fetch or Axios, depending upon the method ie. GET, POST, DELETE, OR PUT
+Step 4 – Now the response from the above is handled by the extraReducer , written inside createSlice method
+Step 5 – And finally the state (or the global store) is updated
+Step 6 – The store data is displayed back to frontend using useSelector hook
+
+Packages used - reduxjs/toolkit
+For CSS - Booststrap 5.0
+Mock Api - for getting and posting the user's data 
+
+https://653b3d5e2e42fd0d54d4d52f.mockapi.io/crud
+
+react-router-dom - 6.9 
